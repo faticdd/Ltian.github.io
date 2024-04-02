@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Hugo Theme MemE</title>
+        <link>https://example.com/</link>
+        <description>MemE is a powerful and highly customizable GoHugo theme for personal blogs.</description>
+        <generator>Hugo 0.124.1 https://gohugo.io/</generator>
+        
+            <language>en</language>
+        
+        
+            <managingEditor>reuixiy@gmail.com (reuixiy)</managingEditor>
+        
+        
+            <webMaster>reuixiy@gmail.com (reuixiy)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+        
+        <lastBuildDate>Tue, 02 Apr 2024 13:56:53 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://example.com/rss.xml" />
+        
+        
+            <item>
+                <title></title>
+                <link>https://example.com/post/first/</link>
+                <guid isPermaLink="true">https://example.com/post/first/</guid>
+                <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+                
+                    <author>reuixiy@gmail.com (reuixiy)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en)</copyright>
+                
+                    <description>&lt;p&gt;baseURL: &amp;ldquo;&lt;a href=&#34;https://examplesite.com/%22&#34;&gt;https://examplesite.com/&amp;quot;&lt;/a&gt;
+title: ExampleSite
+paginate: 5
+theme: PaperMod&lt;/p&gt;
+&lt;p&gt;enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false&lt;/p&gt;
+&lt;p&gt;googleAnalytics: UA-123-45&lt;/p&gt;
+&lt;p&gt;minify:
+disableXML: true
+minifyOutput: true&lt;/p&gt;
+&lt;p&gt;params:
+env: production # to enable google analytics, opengraph, twitter-cards and schema.
+title: ExampleSite
+description: &amp;ldquo;ExampleSite description&amp;rdquo;
+keywords: [Blog, Portfolio, PaperMod]
+author: Me&lt;/p&gt;
+&lt;h1 id=&#34;author-me-you--multiple-authors&#34;&gt;author: [&amp;ldquo;Me&amp;rdquo;, &amp;ldquo;You&amp;rdquo;] # multiple authors&lt;/h1&gt;
+&lt;p&gt;images: [&amp;quot;&amp;lt;link or path of image for opengraph, twitter-cards&amp;gt;&amp;rdquo;]
+DateFormat: &amp;ldquo;January 2, 2006&amp;rdquo;
+defaultTheme: auto # dark, light
+disableThemeToggle: false&lt;/p&gt;
+&lt;p&gt;ShowReadingTime: true
+ShowShareButtons: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: false
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+disableSpecial1stPost: false
+disableScrollToTop: false
+comments: false
+hidemeta: false
+hideSummary: false
+showtoc: false
+tocopen: false&lt;/p&gt;
+&lt;p&gt;assets:
+# disableHLJS: true # to disable highlight.js
+# disableFingerprinting: true
+favicon: &amp;ldquo;&amp;lt;link / abs url&amp;gt;&amp;rdquo;
+favicon16x16: &amp;ldquo;&amp;lt;link / abs url&amp;gt;&amp;rdquo;
+favicon32x32: &amp;ldquo;&amp;lt;link / abs url&amp;gt;&amp;rdquo;
+apple_touch_icon: &amp;ldquo;&amp;lt;link / abs url&amp;gt;&amp;rdquo;
+safari_pinned_tab: &amp;ldquo;&amp;lt;link / abs url&amp;gt;&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;label:
+text: &amp;ldquo;Home&amp;rdquo;
+icon: /apple-touch-icon.png
+iconHeight: 35&lt;/p&gt;
+&lt;h1 id=&#34;profile-mode&#34;&gt;profile-mode&lt;/h1&gt;
+&lt;p&gt;profileMode:
+enabled: false # needs to be explicitly set
+title: ExampleSite
+subtitle: &amp;ldquo;This is subtitle&amp;rdquo;
+imageUrl: &amp;ldquo;&lt;img location&gt;&amp;rdquo;
+imageWidth: 120
+imageHeight: 120
+imageTitle: my image
+buttons:
+- name: Posts
+url: posts
+- name: Tags
+url: tags&lt;/p&gt;
+&lt;h1 id=&#34;home-info-mode&#34;&gt;home-info mode&lt;/h1&gt;
+&lt;p&gt;homeInfoParams:
+Title: &amp;ldquo;Hi there \U0001F44B&amp;rdquo;
+Content: Welcome to my blog&lt;/p&gt;
+&lt;p&gt;socialIcons:
+- name: x
+url: &amp;ldquo;&lt;a href=&#34;https://x.com/%22&#34;&gt;https://x.com/&amp;quot;&lt;/a&gt;
+- name: stackoverflow
+url: &amp;ldquo;&lt;a href=&#34;https://stackoverflow.com&#34;&gt;https://stackoverflow.com&lt;/a&gt;&amp;rdquo;
+- name: github
+url: &amp;ldquo;&lt;a href=&#34;https://github.com/%22&#34;&gt;https://github.com/&amp;quot;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;analytics:
+google:
+SiteVerificationTag: &amp;ldquo;XYZabc&amp;rdquo;
+bing:
+SiteVerificationTag: &amp;ldquo;XYZabc&amp;rdquo;
+yandex:
+SiteVerificationTag: &amp;ldquo;XYZabc&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;cover:
+hidden: true # hide everywhere but not in structured data
+hiddenInList: true # hide on list pages and home
+hiddenInSingle: true # hide on single page&lt;/p&gt;
+&lt;p&gt;editPost:
+URL: &amp;ldquo;&lt;a href=&#34;https://github.com/&#34;&gt;https://github.com/&lt;/a&gt;&amp;lt;path_to_repo&amp;gt;/content&amp;rdquo;
+Text: &amp;ldquo;Suggest Changes&amp;rdquo; # edit text
+appendFilePath: true # to append file path to Edit link&lt;/p&gt;
+&lt;h1 id=&#34;for-search&#34;&gt;for search&lt;/h1&gt;
+&lt;h1 id=&#34;httpsfusejsioapioptionshtml&#34;&gt;&lt;a href=&#34;https://fusejs.io/api/options.html&#34;&gt;https://fusejs.io/api/options.html&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;fuseOpts:
+isCaseSensitive: false
+shouldSort: true
+location: 0
+distance: 1000
+threshold: 0.4
+minMatchCharLength: 0
+limit: 10 # refer: &lt;a href=&#34;https://www.fusejs.io/api/methods.html#search&#34;&gt;https://www.fusejs.io/api/methods.html#search&lt;/a&gt;
+keys: [&amp;ldquo;title&amp;rdquo;, &amp;ldquo;permalink&amp;rdquo;, &amp;ldquo;summary&amp;rdquo;, &amp;ldquo;content&amp;rdquo;]
+menu:
+main:
+- identifier: categories
+name: categories
+url: /categories/
+weight: 10
+- identifier: tags
+name: tags
+url: /tags/
+weight: 20
+- identifier: example
+name: example.org
+url: &lt;a href=&#34;https://example.org&#34;&gt;https://example.org&lt;/a&gt;
+weight: 30&lt;/p&gt;
+&lt;h1 id=&#34;read-httpsgithubcomadityatelangehugo-papermodwikifaqsusing-hugos-syntax-highlighter-chroma&#34;&gt;Read: &lt;a href=&#34;https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma&#34;&gt;https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma&lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;pygmentsUseClasses: true
+markup:
+highlight:
+noClasses: false
+# anchorLineNos: true
+# codeFences: true
+# guessSyntax: true
+# lineNos: true
+# style: monokaii   xxx&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>
